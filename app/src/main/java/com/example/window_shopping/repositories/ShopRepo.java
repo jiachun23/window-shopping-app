@@ -34,12 +34,12 @@ public class ShopRepo {
                         "InB1ciI6InZhcmlhdGlvbiJ9fQ==--3847b42f42b1c45c616f0212496bf183b1d8c25d/MGMT3HN_A_2.png"));
         productList.add(new Product(UUID.randomUUID().toString(),"iPhone 12", 3599,true,
                 "https://pngimg.com/uploads/iphone_12/iphone_12_PNG23.png"));
-        productList.add(new Product(UUID.randomUUID().toString(),"Huawei Nova 7i", 1099,false,
+        productList.add(new Product(UUID.randomUUID().toString(),"Huawei Nova 7i", 1099,true,
                 "https://shop-cdn.huawei.com/my/pms/product/6901443374298/428_428_DBA25FB61C8BC374F180DA1F6226DE45928531CEDFCF6A08mp.png"));
-        productList.add(new Product(UUID.randomUUID().toString(),"Samsung Galaxy S21 Ultra ", 4799,true,
-                "https://images.samsung.com/is/image/samsung/p6pim/my/galaxy-s21/gallery/my-galaxy-s21-ultra-5g-g988-sm-g998bzshxme-368319358?$PD_SHOP_JPG$"));
         productList.add(new Product(UUID.randomUUID().toString(),"Samsung Note 20 Ultra", 4099,false,
                 "https://images.samsung.com/is/image/samsung/my-galaxy-note20-ultra-5g-n986-sm-n986bzngxme-frontmysticbronze-319645103?$720_576_PNG$"));
+        productList.add(new Product(UUID.randomUUID().toString(),"Samsung Galaxy S21 Ultra ", 4799,true,
+                "https://images.samsung.com/is/image/samsung/p6pim/my/galaxy-s21/gallery/my-galaxy-s21-ultra-5g-g988-sm-g998bzshxme-368319358?$PD_SHOP_JPG$"));
         productList.add(new Product(UUID.randomUUID().toString(),"Xiaomi 11 Pro", 2999,true,
                 "https://www.electrorates.com/blogimg/Xiaomi_Mi_11_Pro.png"));
         productList.add(new Product(UUID.randomUUID().toString(),"OnePlus 8T", 2699,true,
