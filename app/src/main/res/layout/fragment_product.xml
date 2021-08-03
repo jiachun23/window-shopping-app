@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:text="@{shopViewModel.product.available ? `Available` : `Out of Stock`}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
-                android:textColor="@{shopViewModel.product.available ? @color/colorPrimary : @color/red}"/>
+                android:textColor="@{shopViewModel.product.available ? @color/purple_500 : @color/red}"/>
 
             <Space
                 android:layout_width="match_parent"
